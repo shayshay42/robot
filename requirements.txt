@@ -1,0 +1,12 @@
+# Core robotics and ML packages
+mujoco>=3.3.5
+gymnasium>=1.2.0
+stable-baselines3>=2.7.0
+opencv-python>=4.12.0
+
+# Note: PyTorch is inherited from base conda environment
+# PyTorch 2.5.1 with CUDA 12.4 support
+
+# Additional dependencies that get installed automatically:
+# numpy~=1.26.4 (downgraded for compatibility)
+# robosuite>=1.5.1 (may need additional setup for full functionality)
